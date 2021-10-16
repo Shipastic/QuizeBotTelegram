@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\denku\\source\\repos\\BotTelegramDB\\BotTelegramDB\\BotTelegramDB.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\denku\\source\\repos\\BotTelegramDB\\BotTelegramDB\\BotTelegramDB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\denku\\source\\repos\\BotTelegramDB\\BotTelegramDB\\BotTelegramDB.csproj",
+        "projectName": "BotTelegramDB",
+        "projectPath": "C:\\Users\\denku\\source\\repos\\BotTelegramDB\\BotTelegramDB\\BotTelegramDB.csproj",
+        "packagesPath": "C:\\Users\\denku\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\denku\\source\\repos\\BotTelegramDB\\BotTelegramDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\denku\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "EntityFramework.Firebird": {
+              "target": "Package",
+              "version": "[7.5.0, )"
+            },
+            "FluentMigrator.Runner.Firebird": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.11, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Net.Requests": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.Emit": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1401 @@
+ -----------------BotTelegramDB.Program | ERROR | (2021-10-01 14:50:38.2015)  -----------------
+ 
+ TestException
+ Exception Type: System.ApplicationException
+ Exception Message = Any Exception
+ Stack Trace:    в BotTelegramDB.Program.Main() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Program.cs:строка 23
+ Target Site: Void Main()
+
+ -----------------BotTelegramDB.Program | ERROR | (2021-10-01 15:08:36.0538)  -----------------
+ 
+ TestException
+ Exception Type: System.ApplicationException
+ Exception Message = Any Exception
+ Stack Trace:    в BotTelegramDB.Program.Main() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Program.cs:строка 23
+ Target Site: Void Main()
+
+ -----------------BotTelegramDB.Program | ERROR | (2021-10-01 15:50:27.1883)  -----------------
+ 
+ TestException
+ Exception Type: System.ApplicationException
+ Exception Message = Any Exception
+ Stack Trace:    в BotTelegramDB.Program.Main() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Program.cs:строка 23
+ Target Site: Void Main()
+
+ -----------------BotTelegramDB.Program | ERROR | (2021-10-01 15:51:32.4918)  -----------------
+ 
+ TestException
+ Exception Type: System.ApplicationException
+ Exception Message = Any Exception
+ Stack Trace:    в BotTelegramDB.Program.Main() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Program.cs:строка 23
+ Target Site: Void Main()
+
+ -----------------BotTelegramDB.Program | ERROR | (2021-10-01 15:55:41.8269)  -----------------
+ 
+ TestException
+ Exception Type: System.ApplicationException
+ Exception Message = Any Exception
+ Stack Trace:    в BotTelegramDB.Program.Main() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Program.cs:строка 23
+ Target Site: Void Main()
+
+ -----------------BotTelegramDB.Program | ERROR | (2021-10-01 16:11:32.0023)  -----------------
+ 
+ TestException
+ Exception Type: System.ApplicationException
+ Exception Message = Any Exception
+ Stack Trace:    в BotTelegramDB.Program.Main() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Program.cs:строка 23
+ Target Site: Void Main()
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:06:30.4621)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 845
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 794
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 364
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:06:30.6055)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 845
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 794
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 390
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:10:52.0559)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 307
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:10:52.1531)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:10:54.7738)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 379
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:10:54.7904)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:13:37.6243)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 307
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:13:37.7258)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:13:46.8872)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 379
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:13:46.9001)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:13:59.2177)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.SendAnswer(Int32 chat_id, String message, Result item) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 672
+   в BotTelegramDB.Model.BotClass.AnswerIsMessage(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 153
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:13:59.2328)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.SendAnswer(Int32 chat_id, String message, Result item) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 672
+   в BotTelegramDB.Model.BotClass.AnswerIsMessage(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 164
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 212
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:14:06.0038)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 327
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:14:06.0062)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:14:37.8420)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 307
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:14:37.9462)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:14:42.2829)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 379
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:14:42.2939)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 868
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 817
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:16:10.5197)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 869
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 818
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 307
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:16:10.6680)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 869
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 818
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:16:14.6001)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 869
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 818
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 379
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:16:14.6001)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 869
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 818
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:17:37.3269)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 855
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 804
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 365
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:17:37.4460)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 855
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 804
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 391
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:18:28.2182)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 855
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 804
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 305
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:18:28.3209)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 855
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 804
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 391
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:18:30.0195)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 855
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 804
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 365
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:18:30.0218)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 855
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 804
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 391
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:19:13.9732)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 869
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 818
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 307
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:19:14.1037)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 869
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 818
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:19:18.5236)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 869
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 818
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 379
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:19:18.5236)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 869
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 818
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:33:30.3717)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 871
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 820
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 306
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:33:30.5302)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 871
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 820
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:33:32.2563)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 871
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 820
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 379
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:33:32.2563)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 871
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 820
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:34:03.3849)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 871
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 820
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 306
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:34:03.4964)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 871
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 820
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:34:04.9575)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 871
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 820
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 379
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:34:04.9596)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 871
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 820
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void InsertAnswerFromKeyboard(Int32, System.String ByRef, System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], System.Collections.Generic.List`1[System.String], BotTelegramDB.InlineKeyboard ByRef, Int32 ByRef, Int32, System.String ByRef, Int32)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:45:42.8238)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, String corrAnswer, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 302
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:45:42.9645)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, String corrAnswer, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:46:30.1291)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, String corrAnswer, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 302
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:46:30.2718)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, String corrAnswer, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:58:26.7340)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 302
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 00:58:28.0928)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:00:16.9321)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 302
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:00:17.0425)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:00:41.7002)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 302
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:00:41.8223)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:04:30.7818)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 302
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:04:30.9019)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:07:48.1868)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 302
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:07:48.2878)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 571
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:13:45.2268)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 849
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 825
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 306
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:13:45.3536)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 849
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 825
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:20:10.8868)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 375
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:20:10.9784)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:21:05.3291)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 850
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 826
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 306
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:21:05.4437)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.InsertAnswerFromKeyboard(Int32 chat_id, String& replyMarkup, List`1 countQuestion, List`1 resultAnswer, List`1 correctAnswer, InlineKeyboard& keyboard, Int32& i, Int32 CountQuestions, String& QuestMessage, Int32 NumberQuestion) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 850
+   в BotTelegramDB.Model.BotClass.QuizDB(Int32 chat_id, String replyMarkup) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 826
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:21:07.3227)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 375
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:21:07.3430)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:36:02.9541)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 376
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:36:03.0918)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 406
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:49:36.3514)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 375
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:49:36.4597)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:49:45.2639)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 375
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:49:45.3245)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:49:46.4930)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 375
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 01:49:46.5151)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 405
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 02:06:39.1079)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 589
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 320
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 02:06:39.2428)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 589
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 423
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 17:56:16.6600)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 589
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 320
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 17:56:16.7923)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 589
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 423
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 17:57:18.8000)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 393
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 17:57:18.9037)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 423
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 17:58:53.1739)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 393
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 17:58:53.3969)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 423
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 17:59:15.4480)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 589
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 320
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 17:59:15.4635)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 589
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 423
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 18:01:04.5217)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 589
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 320
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 18:01:04.6215)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 589
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 423
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 18:06:59.3693)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 599
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 320
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-03 18:06:59.4778)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.DeleteTwoAnswer(Int32 chat_id, String ValueCurrentAnswer, String& replyMarkup, Boolean trig_flsg) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 599
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 423
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-04 09:58:12.5384)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 394
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-04 09:58:12.7168)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 424
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-04 10:23:29.6075)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 394
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-04 10:23:29.7333)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 424
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 218
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.MainForm | ERROR | (2021-10-05 20:23:19.7715)  -----------------
+ 
+ Ошибка:System.Collections.ListDictionaryInternal 
+Текст: Невозможно соединиться с удаленным сервером
+
+ Exception Type: System.Net.WebException
+ Exception Message = Невозможно соединиться с удаленным сервером
+ Stack Trace:    в System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   в System.Net.WebClient.DownloadString(Uri address)
+   в System.Net.WebClient.DownloadString(String address)
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 175
+   в BotTelegramDB.MainForm.TimerUpdates_Tick(Object sender, EventArgs e) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 100
+ Target Site: Byte[] DownloadDataInternal(System.Uri, System.Net.WebRequest ByRef)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-07 11:14:40.8976)  -----------------
+ 
+ Недопустимая операция в нескольких потоках: попытка доступа к элементу управления 'textBoxLog' не из того потока, в котором он был создан.
+ Exception Type: System.InvalidOperationException
+ Exception Message = Недопустимая операция в нескольких потоках: попытка доступа к элементу управления 'textBoxLog' не из того потока, в котором он был создан.
+ Stack Trace:    в System.Windows.Forms.Control.get_Handle()
+   в System.Windows.Forms.Control.set_WindowText(String value)
+   в System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   в System.Windows.Forms.Control.set_Text(String value)
+   в System.Windows.Forms.TextBoxBase.set_Text(String value)
+   в System.Windows.Forms.TextBox.set_Text(String value)
+   в BotTelegramDB.Model.BotClass.WriteLog(String text, Int32 idUser) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 602
+   в BotTelegramDB.Model.BotClass.AnswerIsMessage(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 134
+ Target Site: IntPtr get_Handle()
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-07 11:14:41.0288)  -----------------
+ 
+ Недопустимая операция в нескольких потоках: попытка доступа к элементу управления 'textBoxLog' не из того потока, в котором он был создан.
+ Exception Type: System.InvalidOperationException
+ Exception Message = Недопустимая операция в нескольких потоках: попытка доступа к элементу управления 'textBoxLog' не из того потока, в котором он был создан.
+ Stack Trace:    в System.Windows.Forms.Control.get_Handle()
+   в System.Windows.Forms.Control.set_WindowText(String value)
+   в System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   в System.Windows.Forms.Control.set_Text(String value)
+   в System.Windows.Forms.TextBoxBase.set_Text(String value)
+   в System.Windows.Forms.TextBox.set_Text(String value)
+   в BotTelegramDB.Model.BotClass.WriteLog(String text, Int32 idUser) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 602
+   в BotTelegramDB.Model.BotClass.AnswerIsMessage(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 149
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 197
+ Target Site: IntPtr get_Handle()
+
+ -----------------BotTelegramDB.MainForm | ERROR | (2021-10-08 02:22:02.1396)  -----------------
+ 
+ System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Int32.Parse(String s)
+   в BotTelegramDB.MainForm.<ButAddQuestions_Click>d__8.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 125
+ Exception Type: System.FormatException
+ Exception Message = Входная строка имела неверный формат.
+ Stack Trace:    в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Int32.Parse(String s)
+   в BotTelegramDB.MainForm.<ButAddQuestions_Click>d__8.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 125
+ Target Site: Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+
+ -----------------BotTelegramDB.MainForm | ERROR | (2021-10-08 02:33:29.1864)  -----------------
+ 
+ System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Int32.Parse(String s)
+   в BotTelegramDB.MainForm.<ButAddAnswer_Click>d__11.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 232
+ Exception Type: System.FormatException
+ Exception Message = Входная строка имела неверный формат.
+ Stack Trace:    в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Int32.Parse(String s)
+   в BotTelegramDB.MainForm.<ButAddAnswer_Click>d__11.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 232
+ Target Site: Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+
+ -----------------BotTelegramDB.MainForm | ERROR | (2021-10-08 02:33:41.1214)  -----------------
+ 
+ System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Int32.Parse(String s)
+   в BotTelegramDB.MainForm.<ButAddUser_Click>d__14.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 344
+ Exception Type: System.FormatException
+ Exception Message = Входная строка имела неверный формат.
+ Stack Trace:    в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Int32.Parse(String s)
+   в BotTelegramDB.MainForm.<ButAddUser_Click>d__14.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 344
+ Target Site: Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+
+ -----------------BotTelegramDB.MainForm | ERROR | (2021-10-09 04:40:27.9603)  -----------------
+ 
+ System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Int32.Parse(String s)
+   в BotTelegramDB.MainForm.<ButAddQuestions_Click>d__8.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 132
+ Exception Type: System.FormatException
+ Exception Message = Входная строка имела неверный формат.
+ Stack Trace:    в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Int32.Parse(String s)
+   в BotTelegramDB.MainForm.<ButAddQuestions_Click>d__8.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 132
+ Target Site: Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+
+ -----------------BotTelegramDB.MainForm | ERROR | (2021-10-09 04:40:51.9702)  -----------------
+ 
+ System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Int32.Parse(String s)
+   в BotTelegramDB.MainForm.<ButAddQuestions_Click>d__8.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 132
+ Exception Type: System.FormatException
+ Exception Message = Входная строка имела неверный формат.
+ Stack Trace:    в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Int32.Parse(String s)
+   в BotTelegramDB.MainForm.<ButAddQuestions_Click>d__8.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 132
+ Target Site: Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+
+ -----------------BotTelegramDB.MainForm | ERROR | (2021-10-09 04:46:16.5714)  -----------------
+ 
+ System.FormatException: Входная строка имела неверный формат.
+   в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Int32.Parse(String s)
+   в BotTelegramDB.MainForm.<ButAddQuestions_Click>d__8.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 132
+ Exception Type: System.FormatException
+ Exception Message = Входная строка имела неверный формат.
+ Stack Trace:    в System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   в System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   в System.Int32.Parse(String s)
+   в BotTelegramDB.MainForm.<ButAddQuestions_Click>d__8.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 132
+ Target Site: Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+
+ -----------------BotTelegramDB.MainForm | ERROR | (2021-10-09 04:58:26.1969)  -----------------
+ 
+ System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> FirebirdSql.Data.FirebirdClient.FbException: violation of FOREIGN KEY constraint "FK_Answers_Questions_QuestionId" on table "Answers"
+Foreign key reference target does not exist
+Problematic key value is ("QuestionId" = 0)
+At block line: 6, col: 1 ---> FirebirdSql.Data.Common.IscException: violation of FOREIGN KEY constraint "FK_Answers_Questions_QuestionId" on table "Answers"
+Foreign key reference target does not exist
+Problematic key value is ("QuestionId" = 0)
+At block line: 6, col: 1
+   в FirebirdSql.Data.Client.Managed.Version10.GdsDatabase.ProcessResponse(IResponse response)
+   в FirebirdSql.Data.Client.Managed.Version10.GdsDatabase.ReadResponse[TResponse](Int32 operation)
+   в FirebirdSql.Data.Client.Managed.Version10.GdsDatabase.ReadResponse(Int32 operation)
+   в FirebirdSql.Data.Client.Managed.Version10.GdsStatement.Fetch()
+   в FirebirdSql.Data.FirebirdClient.FbCommand.Fetch()
+   --- Конец трассировки внутреннего стека исключений ---
+   в FirebirdSql.Data.FirebirdClient.FbCommand.Fetch()
+   в FirebirdSql.Data.FirebirdClient.FbDataReader.Read()
+   в System.Data.Common.DbDataReader.ReadAsync(CancellationToken cancellationToken)
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.<ExecuteAsync>d__8.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.<UpdateAsync>d__39.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.<UpdateAsync>d__39.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__156`1.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStoreAsync>d__154.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesInternalAsync>d__151.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в BotTelegramDB.MainForm.<ButAddAnswer_Click>d__11.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 248
+ Exception Type: System.Data.Entity.Infrastructure.DbUpdateException
+ Exception Message = An error occurred while updating the entries. See the inner exception for details.
+ Stack Trace:    в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в BotTelegramDB.MainForm.<ButAddAnswer_Click>d__11.MoveNext() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\MainForm.cs:строка 248
+ Target Site: Void ThrowForNonSuccess(System.Threading.Tasks.Task)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-09 05:07:56.1777)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 349
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-09 05:07:56.2823)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 379
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 203
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-09 05:13:46.7464)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 349
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-09 05:13:46.8569)  -----------------
+ 
+ Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Exception Type: System.ArgumentOutOfRangeException
+ Exception Message = Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index
+ Stack Trace:    в System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   в System.Collections.Generic.List`1.get_Item(Int32 index)
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 379
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 203
+ Target Site: Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-09 10:23:24.9634)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.SendAnswer(Int32 chat_id, String message, Result item) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 629
+   в BotTelegramDB.Model.BotClass.AnswerIsMessage(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 138
+ Target Site: Void SendAnswer(Int32, System.String, BotTelegramDB.Result)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-09 10:23:25.1229)  -----------------
+ 
+ Индекс находился вне границ массива.
+ Exception Type: System.IndexOutOfRangeException
+ Exception Message = Индекс находился вне границ массива.
+ Stack Trace:    в BotTelegramDB.Model.BotClass.SendAnswer(Int32 chat_id, String message, Result item) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 629
+   в BotTelegramDB.Model.BotClass.AnswerIsMessage(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 149
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 197
+ Target Site: Void SendAnswer(Int32, System.String, BotTelegramDB.Result)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-09 10:25:31.2765)  -----------------
+ 
+ Значение не может быть неопределенным.
+Имя параметра: entity
+ Exception Type: System.ArgumentNullException
+ Exception Message = Значение не может быть неопределенным.
+Имя параметра: entity
+ Stack Trace:    в System.Data.Entity.Utilities.Check.NotNull[T](T value, String parameterName)
+   в System.Data.Entity.DbSet`1.Add(TEntity entity)
+   в BotTelegramDB.Data.Repository.UserInfoRepository.AddUser(Int32 scoreUser, Int32 userid) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\Repository\UserInfoRepository.cs:строка 112
+   в BotTelegramDB.Model.BotClass.UserScore(Result item, String& replyMarkup, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 446
+ Target Site: T NotNull[T](T, System.String)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-09 10:25:31.3129)  -----------------
+ 
+ Значение не может быть неопределенным.
+Имя параметра: entity
+ Exception Type: System.ArgumentNullException
+ Exception Message = Значение не может быть неопределенным.
+Имя параметра: entity
+ Stack Trace:    в System.Data.Entity.Utilities.Check.NotNull[T](T value, String parameterName)
+   в System.Data.Entity.DbSet`1.Add(TEntity entity)
+   в BotTelegramDB.Data.Repository.UserInfoRepository.AddUser(Int32 scoreUser, Int32 userid) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\Repository\UserInfoRepository.cs:строка 112
+   в BotTelegramDB.Model.BotClass.UserScore(Result item, String& replyMarkup, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 477
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 317
+ Target Site: T NotNull[T](T, System.String)
+
+ -----------------BotTelegramDB.Model.BotClass | ERROR | (2021-10-09 10:25:31.3403)  -----------------
+ 
+ Значение не может быть неопределенным.
+Имя параметра: entity
+ Exception Type: System.ArgumentNullException
+ Exception Message = Значение не может быть неопределенным.
+Имя параметра: entity
+ Stack Trace:    в System.Data.Entity.Utilities.Check.NotNull[T](T value, String parameterName)
+   в System.Data.Entity.DbSet`1.Add(TEntity entity)
+   в BotTelegramDB.Data.Repository.UserInfoRepository.AddUser(Int32 scoreUser, Int32 userid) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\Repository\UserInfoRepository.cs:строка 112
+   в BotTelegramDB.Model.BotClass.UserScore(Result item, String& replyMarkup, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 477
+   в BotTelegramDB.Model.BotClass.AnswerIsCallbackQueryAsync(Result item, Int32 chatID) в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 379
+   в BotTelegramDB.Model.BotClass.GetUpdates() в C:\Users\denku\source\repos\BotTelegramDB\BotTelegramDB\Data\BotClass.cs:строка 203
+ Target Site: T NotNull[T](T, System.String)
+

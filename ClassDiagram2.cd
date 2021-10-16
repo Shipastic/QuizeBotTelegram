@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="BotTelegramDB.AnswersForm">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAQAAAAACAAABAABACAQAACAAAQgAAAAAAAAQAAAAA=</HashCode>
+      <FileName>AnswersForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.BotButtons">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAAAAA=</HashCode>
+      <FileName>Data\BotButtons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.KeyboardButtom">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIAAAAAAAIAAA=</HashCode>
+      <FileName>Data\BotButtons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.RemoveButtons">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\BotButtons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.InlineKeyboard">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Data\BotButtons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.InlineKeyboardButton">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Data\BotButtons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.BotMessage">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Data\BotMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Result">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Data\BotMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Message">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAEIAAAIAQAAAAA=</HashCode>
+      <FileName>Data\BotMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Callback_Query">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAiA=</HashCode>
+      <FileName>Data\BotMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.From">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAEEIAAAAAAAAAAAAAAAQgA=</HashCode>
+      <FileName>Data\BotMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Chat">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAEAAAABAAAAAAAAAAAAQgA=</HashCode>
+      <FileName>Data\BotMessage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.GroupForm">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACEAAYAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>GroupForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.ListGroupForm">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAYAAAAAQAAAQAAAAA=</HashCode>
+      <FileName>ListGroupForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.MainForm">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAEEgCAegCgRASSRGAEANSAIALQKREQCACECIIEEA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Program">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.QuestionsForm">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgJAAAACAAAACAAAYAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>QuestionsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.UserInfoForm">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAAAAKAAABAAAACAAAACBAAYAAQAAAAEAAAAAAA=</HashCode>
+      <FileName>UserInfoForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Model.BotClass">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMgAIBpAQAZAAECA0gAQABAAEYQAIEgAAAKJgAEAAY=</HashCode>
+      <FileName>Data\BotClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Model.Answer">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAEAAAgAEQAAAA=</HashCode>
+      <FileName>Data\Model\Answer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Model.Group">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAABAAAAAAAAAgAAAABABAAACAAAAAAA=</HashCode>
+      <FileName>Data\Model\Group.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Model.ListGroup">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAgAAgACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Model\ListGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Model.Question">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQAAgAAQAAIA=</HashCode>
+      <FileName>Data\Model\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Model.UserInfo">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEAAAAAAAAAAAIAAgAAQAAAAAAAQAAAAAAAAk=</HashCode>
+      <FileName>Data\Model\UserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Model.TGBotContext">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAIAAAAAEAAAABAEQAAAAAAAAAA=</HashCode>
+      <FileName>Data\TGBotContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Data.Repository.AnswerRepository" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Data\Repository\AnswerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Data.Repository.GroupRepository" BaseTypeListCollapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Repository\GroupRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Data.Repository.ListGroupRepository" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Repository\ListGroupRepository.cs</FileName>
+      <NewMemberFileName>Data\Repository\ListGroupREpository.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Data.Repository.QuestionRepository" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Data\Repository\QuestionRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Data.Repository.UserInfoRepository" BaseTypeListCollapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAACAAAAiAAAQAAAAAAA=</HashCode>
+      <FileName>Data\Repository\UserInfoRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Migrations.Init" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202109031042225_Init.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Migrations._new" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202109061132590_new.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Migrations.addNameGroupForListGroup" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202109080813215_addNameGroupForListGroup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Migrations.addNameGroupForListGroup_new" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202109080839407_addNameGroupForListGroup_new.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Migrations.ChangeTypeColumn_new" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202109091425529_ChangeTypeColumn_new.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Migrations.deleteNameGroup" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202109132158486_deleteNameGroup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Migrations.addFioAndUserId" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202109181919294_addFioAndUserId.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Migrations.addNLog" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202109292044213_addNLog.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Migrations.delTgBotLogs" BaseTypeListCollapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAMAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAI=</HashCode>
+      <FileName>Migrations\202110010854321_delTgBotLogs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BotTelegramDB.Migrations.Configuration">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Properties.Resources">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BotTelegramDB.Properties.Settings">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="BotTelegramDB.Data.Interface.IAnswer">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Data\Interfaces\IAnswer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BotTelegramDB.Data.Interfaces.IGroup">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Interfaces\IGroup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BotTelegramDB.Data.Interfaces.IListGroup">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Interfaces\IListGroup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BotTelegramDB.Data.Interfaces.IQuestion">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAEAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Data\Interfaces\IQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BotTelegramDB.Data.Interfaces.IUserInfo">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAACAAAAiAAAQAAAAAAA=</HashCode>
+      <FileName>Data\Interfaces\IUserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="BotTelegramDB.Model.StateBot">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Data\BotClass.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

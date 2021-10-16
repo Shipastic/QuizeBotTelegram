@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\SQLite.3.13.0\build\net45\SQLite.props" Condition="Exists('..\packages\SQLite.3.13.0\build\net45\SQLite.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D12D1EC-D476-4B5C-B087-B1BEC1B098C7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BotTelegramDB</RootNamespace>
+    <AssemblyName>BotTelegramDB</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AnswersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnswersForm.Designer.cs">
+      <DependentUpon>AnswersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Interfaces\IAnswer.cs" />
+    <Compile Include="Data\Interfaces\IGroup.cs" />
+    <Compile Include="Data\Interfaces\IListGroup.cs" />
+    <Compile Include="Data\Interfaces\IQuestion.cs" />
+    <Compile Include="Data\Interfaces\IUserInfo.cs" />
+    <Compile Include="Data\Model\Answer.cs" />
+    <Compile Include="Data\BotButtons.cs" />
+    <Compile Include="Data\BotClass.cs" />
+    <Compile Include="Data\BotMessage.cs" />
+    <Compile Include="Data\Repository\AnswerRepository.cs" />
+    <Compile Include="Data\Repository\GroupRepository.cs" />
+    <Compile Include="Data\Repository\ListGroupRepository.cs" />
+    <Compile Include="Data\Repository\QuestionRepository.cs" />
+    <Compile Include="Data\Repository\UserInfoRepository.cs" />
+    <Compile Include="GroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupForm.Designer.cs">
+      <DependentUpon>GroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListGroupForm.Designer.cs">
+      <DependentUpon>ListGroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Model\Group.cs" />
+    <Compile Include="Data\Model\ListGroup.cs" />
+    <Compile Include="Data\Model\Question.cs" />
+    <Compile Include="Data\TGBotContext.cs" />
+    <Compile Include="Data\Model\UserInfo.cs" />
+    <Compile Include="Migrations\202109031042225_Init.cs" />
+    <Compile Include="Migrations\202109031042225_Init.designer.cs">
+      <DependentUpon>202109031042225_Init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109061132590_new.cs" />
+    <Compile Include="Migrations\202109061132590_new.designer.cs">
+      <DependentUpon>202109061132590_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109080813215_addNameGroupForListGroup.cs" />
+    <Compile Include="Migrations\202109080813215_addNameGroupForListGroup.designer.cs">
+      <DependentUpon>202109080813215_addNameGroupForListGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109080839407_addNameGroupForListGroup_new.cs" />
+    <Compile Include="Migrations\202109080839407_addNameGroupForListGroup_new.designer.cs">
+      <DependentUpon>202109080839407_addNameGroupForListGroup_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109091425529_ChangeTypeColumn_new.cs" />
+    <Compile Include="Migrations\202109091425529_ChangeTypeColumn_new.designer.cs">
+      <DependentUpon>202109091425529_ChangeTypeColumn_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109132158486_deleteNameGroup.cs" />
+    <Compile Include="Migrations\202109132158486_deleteNameGroup.designer.cs">
+      <DependentUpon>202109132158486_deleteNameGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109181919294_addFioAndUserId.cs" />
+    <Compile Include="Migrations\202109181919294_addFioAndUserId.designer.cs">
+      <DependentUpon>202109181919294_addFioAndUserId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202109292044213_addNLog.cs" />
+    <Compile Include="Migrations\202109292044213_addNLog.designer.cs">
+      <DependentUpon>202109292044213_addNLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202110010854321_delTgBotLogs.cs" />
+    <Compile Include="Migrations\202110010854321_delTgBotLogs.designer.cs">
+      <DependentUpon>202110010854321_delTgBotLogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestionsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuestionsForm.Designer.cs">
+      <DependentUpon>QuestionsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInfoForm.Designer.cs">
+      <DependentUpon>UserInfoForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AnswersForm.resx">
+      <DependentUpon>AnswersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupForm.resx">
+      <DependentUpon>GroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListGroupForm.resx">
+      <DependentUpon>ListGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109031042225_Init.resx">
+      <DependentUpon>202109031042225_Init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109061132590_new.resx">
+      <DependentUpon>202109061132590_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109080813215_addNameGroupForListGroup.resx">
+      <DependentUpon>202109080813215_addNameGroupForListGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109080839407_addNameGroupForListGroup_new.resx">
+      <DependentUpon>202109080839407_addNameGroupForListGroup_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109091425529_ChangeTypeColumn_new.resx">
+      <DependentUpon>202109091425529_ChangeTypeColumn_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109132158486_deleteNameGroup.resx">
+      <DependentUpon>202109132158486_deleteNameGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109181919294_addFioAndUserId.resx">
+      <DependentUpon>202109181919294_addFioAndUserId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202109292044213_addNLog.resx">
+      <DependentUpon>202109292044213_addNLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202110010854321_delTgBotLogs.resx">
+      <DependentUpon>202110010854321_delTgBotLogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QuestionsForm.resx">
+      <DependentUpon>QuestionsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInfoForm.resx">
+      <DependentUpon>UserInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="QUIZ.FDB" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EntityFramework.Firebird">
+      <Version>7.5.0</Version>
+    </PackageReference>
+    <PackageReference Include="FluentMigrator.Runner.Firebird">
+      <Version>3.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.1</Version>
+    </PackageReference>
+    <PackageReference Include="NLog">
+      <Version>4.7.11</Version>
+    </PackageReference>
+    <PackageReference Include="System.Net.Requests">
+      <Version>4.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Reflection.Emit">
+      <Version>4.7.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Threading.Tasks.Extensions">
+      <Version>4.5.4</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\SQLite.3.13.0\build\net45\SQLite.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLite.3.13.0\build\net45\SQLite.props'))" />
+  </Target>
+</Project>
