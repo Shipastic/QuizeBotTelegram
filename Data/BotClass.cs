@@ -28,7 +28,7 @@ namespace BotTelegramDB.Model
         /// <summary>
         /// токен
         /// </summary>
-        readonly string token = "1723803469:AAFDan-QEq5etA-U7POV_NoR7FQlZ7tTzxY";
+        readonly string token = "YOU TOKEN HERE";
 
         /// <summary>
         /// Адресс API Telegramm
