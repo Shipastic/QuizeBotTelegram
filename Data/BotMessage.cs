@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BotTelegramDB
 {
-    // Для формирования классов автоматически - Меню "Правка" - "Специальная вставка" - "JSON формат"
+    
     /// <summary>
     /// Класс Сообщение
     /// </summary>
